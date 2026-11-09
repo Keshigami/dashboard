@@ -1,0 +1,66 @@
+{
+ "folder": "dashboard",
+ "slug": "dashboard",
+ "port": 5173,
+ "title": "Dashboard",
+ "one_liner": "One page that lists every capstone and portfolio service with a live status dot, the stack, an Open link and its brief.",
+ "duration_s": 51.2,
+ "highlight_s": 6.4,
+ "steps": [
+  {
+   "n": 1,
+   "text": "The front door: every capstone and portfolio service on one page",
+   "ok": true,
+   "t": 2.5
+  },
+  {
+   "n": 2,
+   "text": "The header counts the services up; each dot polls /health every ten seconds",
+   "ok": true,
+   "t": 6.1
+  },
+  {
+   "n": 3,
+   "text": "Capstones: three Caltech capstones as five services, each with a port and an Open link",
+   "ok": true,
+   "t": 10.4
+  },
+  {
+   "n": 4,
+   "text": "Portfolio: eight apps grouped by target role",
+   "ok": true,
+   "t": 15.2
+  },
+  {
+   "n": 5,
+   "text": "Computer vision: the Headstorm blueprint and menu pipelines",
+   "ok": true,
+   "t": 20.2
+  },
+  {
+   "n": 6,
+   "text": "Every card has a Brief: the problem, the build, the numbers and the limits",
+   "ok": true,
+   "t": 24.7
+  },
+  {
+   "n": 7,
+   "text": "Close it; the page keeps polling",
+   "ok": true,
+   "t": 33.1
+  },
+  {
+   "n": 8,
+   "text": "The hint box: just up, just check, just down from the repository root",
+   "ok": true,
+   "t": 35.6
+  },
+  {
+   "n": 9,
+   "text": "Back to the top: everything green means every service answered",
+   "ok": true,
+   "t": 45.0
+  }
+ ],
+ "skipped": []
+}
